@@ -1,0 +1,15 @@
+[
+    {
+      "name": "nginx-task",
+      "image": "nginx:latest",
+      "cpu": 2,
+      "memory": 512,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 80
+        }
+      ]
+    }
+]
